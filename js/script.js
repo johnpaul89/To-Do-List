@@ -17,6 +17,21 @@ $(document).ready(function(){
       $(this).parent().remove();
     })
 
+
+
     $("input#new-list-name").val();
   });
+});
+
+$(".a").click(function(){
+  $(".b").show();
+});
+$(".c").click(function(){
+  $(".d").show();
+});
+$(".e").click(function(){
+  $(".f").show();
+});
+$(".g").click(function(){
+  $(".h").show();
 });
